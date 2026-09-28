@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Documentos legais</title>
+<style>
+:root{
+  --bg:#0b0d12; --card:#121722; --text:#eef2ff; --muted:#aab4c8;
+  --accent:#5865F2; --border:#252c3a;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  background:linear-gradient(180deg,#0b0d12,#0f1320); color:var(--text); line-height:1.7;
+}
+.wrap{max-width:920px;margin:0 auto;padding:48px 20px 72px}
+.top{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px
+}
+.brand{font-size:18px;font-weight:800;letter-spacing:.2px}
+.badge{
+  background:rgba(88,101,242,.14); color:#bfc5ff; border:1px solid rgba(88,101,242,.35);
+  padding:8px 12px;border-radius:999px;font-size:13px
+}
+.card{
+  background:rgba(18,23,34,.92); border:1px solid var(--border); border-radius:20px;
+  padding:34px; box-shadow:0 20px 60px rgba(0,0,0,.28)
+}
+h1{font-size:38px;line-height:1.15;margin:0 0 10px}
+h2{font-size:21px;margin:30px 0 8px}
+p,li{color:var(--muted)}
+a{color:#9aa4ff;text-decoration:none}
+a:hover{text-decoration:underline}
+.meta{color:#8792a8;font-size:14px;margin-bottom:24px}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 6px}
+.nav a{
+  padding:9px 12px;border:1px solid var(--border);border-radius:10px;background:#0f1420
+}
+footer{margin-top:26px;color:#78839a;font-size:13px;text-align:center}
+code{background:#0d111a;border:1px solid var(--border);padding:2px 6px;border-radius:6px}
+@media(max-width:640px){
+  .top{align-items:flex-start;flex-direction:column}
+  .card{padding:24px}
+  h1{font-size:31px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="brand">Aplicativo para Discord</div>
+    <div class="badge">Documentos legais</div>
+  </div>
+  <main class="card">
+    <h1>Documentos legais</h1>
+    <p>Acesse abaixo os documentos públicos do aplicativo.</p>
+    <div class="nav">
+      <a href="terms.html">Termos de Serviço</a>
+      <a href="privacy.html">Política de Privacidade</a>
+    </div>
+  </main>
+  <footer>© 2026</footer>
+</div>
+</body>
+</html>

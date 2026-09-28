@@ -1,0 +1,30 @@
+PUBLICAÇÃO NO GITHUB PAGES
+
+1. Crie um repositório público no GitHub.
+2. Envie os arquivos:
+   - index.html
+   - terms.html
+   - privacy.html
+3. No repositório, abra:
+   Settings > Pages
+4. Em "Build and deployment":
+   Source: Deploy from a branch
+   Branch: main
+   Folder: / (root)
+5. Salve e aguarde o GitHub gerar o endereço.
+
+Se o endereço gerado for:
+https://SEUUSUARIO.github.io/NOME-DO-REPOSITORIO/
+
+Use no Discord Developer Portal:
+
+Termos de Serviço:
+https://SEUUSUARIO.github.io/NOME-DO-REPOSITORIO/terms.html
+
+Política de Privacidade:
+https://SEUUSUARIO.github.io/NOME-DO-REPOSITORIO/privacy.html
+
+Observação:
+Os textos são modelos gerais prontos para publicação. Caso o bot trate pagamentos,
+dados sensíveis, informações financeiras, dados de saúde ou outros dados especiais,
+é recomendável adaptar a política às práticas reais do serviço.
